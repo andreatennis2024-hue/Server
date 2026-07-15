@@ -1,0 +1,42 @@
+// THIS IS A REWORK SOURCECODE PLEASE GIVE US CREDIT OR YOU DONT HAVE PERMISSION DO USE OUR SOURCECODE!!!
+{
+  "rework_core_system": {
+    "gateway_control": {
+      "node_active": true,
+      "session_persistence": "enabled",
+      "global_status": "operational",
+      "environment": "production-master"
+    },
+    "content_registry": {
+      "deployment_groups": {
+        "curated_selection": {
+          "internal_code": "RW-FL-001",
+          "payload": [
+            { "label": "AppExample", "uid": "RW_AppExample_01" },
+            { "label": "AppExample", "uid": "RW_AppExample_02" }
+          ]
+        },
+        "utility_peak": {
+          "internal_code": "RW-TA-002",
+          "payload": [
+            { "label": "AppExample", "uid": "RW_AppExample_01" },
+            { "label": "AppExample", "uid": "RW_AppExample_02" }
+          ]
+        },
+        "gaming_peak": {
+          "internal_code": "RW-TG-003",
+          "payload": [
+            { "label": "AppExample", "uid": "RW_AppExample_01" },
+            { "label": "AppExample", "uid": "RW_AppExample_02" }
+          ]
+        }
+      }
+    }
+  },
+  "metadata": {
+    "container_width": "1000px",
+    "version": "1.2.0",
+    "encryption_layer": "AES-256-GCM",
+    "total_apps": 25
+  }
+}

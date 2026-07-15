@@ -1,0 +1,167 @@
+// THIS IS A REWORK SOURCECODE PLEASE GIVE US CREDIT OR YOU DONT HAVE PERMISSION DO USE OUR SOURCECODE!!!
+{
+    "rework_core_system": {
+        "gateway_control": {
+            "node_active": true,
+            "maintenance_mode": true, 
+            "lock_mode": true,
+            "version1.0": true,
+            "session_persistence": "enabled",
+            "global_status": "operational",
+            "environment": "production-master",
+            "version_lock": {
+                "active_version": "1.0.0.0",
+                "action_on_incompatible": "FORCE_OFFLINE",
+                "maintenance_mode": true
+            }
+        },
+        "network_routing": {
+            "base_origin": "https://reworkw8.github.io/RwStoreMasterServer/v3",
+            "asset_mirror": "https://reworkw8.github.io/RwStoreMasterServer/content",
+            "auth_service": "https://reworkw8.github.io/RwStoreMasterServer/auth"
+        },
+        "toast_notification": {
+            "ShowToast": false,
+            "title": "",
+            "message": ""
+        },
+        "content_registry": {
+            "live_tile_feed": {
+                "internal_code": "RW-LT-TITLE",
+                "update_policy": "cycle_random",
+                "payload": [
+                    {"uid": "AppExample_01", "label": "AppExample", "description": "AppExample"},
+                    {"uid": "AppExample_02", "label": "AppExample", "description": "AppExample"}
+                ]
+            },
+            "spotlight": {
+                "internal_code": "RW-SPOTLIGHT-PROMO",
+                "payload": [
+                    {"uid": "AppExample_01", "label": "myTube", "description": "AppExample", "image_url": "https://reworkw8.github.io/RwStoreMasterServer/images/myTubespli.png"},
+                    {"uid": "AppExample_02", "label": "tortasypostres", "description": "AppExample", "image_url": "https://reworkw8.github.io/RwStoreMasterServer/images/tortasypostresspli.png"},
+                    {"uid": "AppExample_03", "label": "crossyRoad", "description": "AppExample", "image_url": "https://reworkw8.github.io/RwStoreMasterServer/images/crossyRoadspli.png"},
+                    {"uid": "AppExample_04", "label": "moorhuhn", "description": "AppExample", "image_url": "https://reworkw8.github.io/RwStoreMasterServer/images/moorhuhnspli.PNG"}
+                ]
+            },
+            "deployment_groups": {
+                "rework_picks": {
+                    "title": "Rework picks",
+                    "internal_code": "RW-PICKS-000",
+                    "payload": [
+                        {"uid": "AppExample_01", "label": "AppExample"},
+                        {"uid": "AppExample_02", "label": "AppExample"}
+                    ]
+                },
+                "curated_selection": {
+                    "title": "Featured",
+                    "internal_code": "RW-FL-001",
+                    "payload": [
+                        {"uid": "AppExample_01", "label": "AppExample"},
+                        {"uid": "AppExample_02", "label": "AppExample"}
+                    ]
+                },
+                "utility_peak": {
+                    "title": "Top Apps",
+                    "internal_code": "RW-TA-002",
+                    "payload": [
+                        {"uid": "AppExample_01", "label": "AppExample"},
+                        {"uid": "AppExample_02", "label": "AppExample"}
+                    ]
+                },
+                "gaming_peak": {
+                    "title": "Top Games",
+                    "internal_code": "RW-TG-003",
+                    "payload": [
+                        {"uid": "AppExample_01", "label": "AppExample"},
+                        {"uid": "AppExample_02", "label": "AppExample"}
+                    ]
+                },
+                "new_peak": {
+                    "title": "New & Rising",
+                    "internal_code": "RW-N&R-004",
+                    "payload": [
+                        {"uid": "AppExample_01", "label": "AppExample"},
+                        {"uid": "AppExample_02", "label": "AppExample"}
+                    ]
+                },
+                "grossing_peak": {
+                    "title": "Top Grossing",
+                    "internal_code": "RW-GR-005",
+                    "payload": [
+                        {"uid": "AppExample_01", "label": "AppExample"},
+                        {"uid": "AppExample_02", "label": "AppExample"}
+                    ]
+                },
+                "rated_peak": {
+                    "title": "Best Rated",
+                    "internal_code": "RW-RT-006",
+                    "payload": [
+                        {"uid": "AppExample_01", "label": "AppExample"},
+                        {"uid": "AppExample_02", "label": "AppExample"}
+                    ]
+                },
+                "rework_peak": {
+                    "title": "Rework Apps",
+                    "internal_code": "RW-App-007",
+                    "payload": [
+                        {"uid": "AppExample_01", "label": "AppExample"},
+                        {"uid": "AppExample_02", "label": "AppExample"}
+                    ]
+                },
+                "collections_registry": {
+                    "title": "Collections",
+                    "internal_code": "RW-COLL-008",
+                    "payload": [
+                        {
+                            "title": "Great Apps",
+                            "apps": ["AppExample", "AppExample", "AppExample", "AppExample"]
+                        },
+                        {
+                            "title": "Getting Started",
+                            "apps": ["AppExample", "AppExample", "AppExample", "AppExample"]
+                        },
+                        {
+                            "title": "Indie Games",
+                            "apps": ["AppExample", "AppExample", "AppExample", "AppExample"]
+                        },
+                        {
+                            "title": "The Newsstand",
+                            "apps": ["AppExample", "AppExample", "AppExample", "AppExample"]
+                        },
+                        {
+                            "spacer": true
+                        }
+                    ]
+                }
+            }
+        },
+        "metadata_extension": {
+            "encryption_layer": "AES-256-GCM",
+            "cache_ttl": 86400
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

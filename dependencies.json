@@ -1,0 +1,24 @@
+// THIS IS A REWORK SOURCECODE PLEASE GIVE US CREDIT OR YOU DONT HAVE PERMISSION DO USE OUR SOURCECODE!!!
+{
+  "rework_core_system": {
+    "runtime_requirements": {
+      "framework_dependencies": [
+        {
+          "name": "mediaPlayReady",
+          "version": "latest",
+          "essential": true
+        },
+        {
+          "name": "winJS",
+          "version": "latest",
+          "essential": true
+        }
+      ],
+      "environment_tags": [
+        "wsr",
+        "store"
+      ]
+    }
+  }
+}
+
