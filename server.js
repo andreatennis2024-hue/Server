@@ -1,4 +1,3 @@
-// THIS IS A REWORK SOURCECODE PLEASE GIVE US CREDIT OR YOU DONT HAVE PERMISSION DO USE OUR SOURCECODE!!!
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
